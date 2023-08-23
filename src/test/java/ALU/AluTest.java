@@ -1,3 +1,5 @@
+package ALU;
+
 import ALU.Alu;
 import ALU.Result;
 import org.junit.Test;
