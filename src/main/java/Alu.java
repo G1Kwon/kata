@@ -16,7 +16,7 @@ public class Alu {
         this.OPCODE = OPCODE;
     }
 
-    public void enableSignal(result r) {
+    public void enableSignal(Result r) {
         if (OPCODE.equals("ADD") == true && !OPCODE.equals("MUL") == true && !OPCODE.equals("SUB") == true) {
             if (operand1 != -1 && operand2 != -1) {
                 int result = operand1 + operand2;

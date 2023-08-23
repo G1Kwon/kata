@@ -11,7 +11,7 @@ class AluTest {
         alu.setOperand2(20);
         alu.setOPCODE("ADD");
 
-        result ret = new result();
+        Result ret = new Result();
         alu.enableSignal(ret);
 
         assertEquals(30, ret.getResult());
