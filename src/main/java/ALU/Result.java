@@ -1,3 +1,5 @@
+package ALU;
+
 public class Result {
     private int status = -1;
     private int result = 65535;
